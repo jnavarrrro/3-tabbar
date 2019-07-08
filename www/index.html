@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title>Blank App</title>
+        <link rel="stylesheet" href="css/onsenui.css" />
+        <link rel="stylesheet" href="css/onsen-css-components.css" />
+    </head>
+    <body>
+        <ons-page>
+            <ons-toolbar style="background-color: blue">
+                <div class="center" style="text-align: center; color: white"> Tabbar App </div>
+            </ons-toolbar>
+            <ons-tabbar position="top" swipeable>
+                    <ons-tab label="Tab 1" active icon="md-home" page="tab1.html"></ons-tab>
+                    <ons-tab label="Tab 2" icon="md-settings" page="tab2.html"></ons-tab>
+            </ons-tabbar>
+        </ons-page>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script src="js/onsenui.min.js"></script>
+        <script src="js/jquery-3.4.1.min.js"></script>
+</html>
